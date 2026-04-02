@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield</title>
+    <link rel="stylesheet" href="popup-styles.css">
+</head>
+
+<body>
+    <div class="popup-container">
+        <!-- Header -->
+        <div class="popup-header">
+            <div class="header-title">
+                <span class="header-icon">🛡️</span>
+                <h1>CyberShield</h1>
+            </div>
+            <p class="header-subtitle">Security Status</p>
+        </div>
+
+        <!-- Status Section -->
+        <div class="status-section">
+            <div class="status-card" id="statusCard">
+                <div class="status-indicator">
+                    <div class="status-dot loading"></div>
+                </div>
+                <div class="status-info">
+                    <span class="status-label">Analyzing page...</span>
+                    <span class="status-domain">Loading</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Issues Section -->
+        <div class="issues-section" id="issuesSection" style="display: none;">
+            <div class="issues-header">
+                <span class="issues-icon">⚠️</span>
+                <h2>Detected Issues</h2>
+            </div>
+            <div class="issues-list" id="issuesList">
+                <!-- Issues will be populated here -->
+            </div>
+        </div>
+
+        <!-- Safe Section -->
+        <div class="safe-section" id="safeSection" style="display: none;">
+            <div class="safe-content">
+                <span class="safe-icon">✅</span>
+                <p>This page appears to be safe!</p>
+            </div>
+        </div>
+
+        <!-- Tips Section -->
+        <div class="tips-section">
+            <div class="tips-header">
+                <span class="tips-icon">💡</span>
+                <h3>Security Tips</h3>
+            </div>
+            <ul class="tips-list">
+                <li>Always use strong, unique passwords</li>
+                <li>Check the URL before entering sensitive info</li>
+                <li>Look for HTTPS and a padlock icon</li>
+                <li>Never share passwords via email or chat</li>
+                <li>Be skeptical of urgent requests</li>
+            </ul>
+        </div>
+
+        <!-- Footer -->
+        <div class="popup-footer">
+            <p>CyberShield v1.0 | Stay Safe Online</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
