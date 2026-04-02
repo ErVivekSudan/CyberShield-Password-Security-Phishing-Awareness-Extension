@@ -24,7 +24,7 @@ This project focuses on practical client-side security checks:
 ## Project Structure
 
 ```
-copy of actual project/
+project/
 ├── manifest.json
 ├── content.js
 ├── content-styles.css
